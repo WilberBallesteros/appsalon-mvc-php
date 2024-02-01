@@ -1,0 +1,28 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.alerta {
+    padding: calc(v.$separacion / 4);
+    color: v.$blanco;
+    width: 100%;
+    display: block;  //alertas una debajo de la otra
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: v.$bold;
+    text-transform: uppercase;
+
+
+    &.error {
+        background-color: v.$rojo;
+    }
+
+    &.exito {
+        background-color: v.$verde;
+    }
+}
+
+//alerta poop
+.swal2-popup {
+    font-size: 1.6rem !important;
+    font-family: Georgia, serif;
+  }

@@ -1,0 +1,23 @@
+{
+    "name": "wilbe/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP8, SQL, Gulp, SASS",
+    "type": "project",
+    "autoload":{
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wilber Ballesteros",
+            "email": "ballestas01@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
